@@ -1,0 +1,51 @@
+id,product_name,category,price,quantity,sale_date,customer_id,region,salesperson
+1,iPhone 14 Pro,Electronics,999.99,2,2023-01-15,101,North America,Alice Johnson
+2,MacBook Air M2,Electronics,1199.00,1,2023-01-16,102,Europe,Bob Smith
+3,Nike Air Max,Footwear,129.99,3,2023-01-18,103,Asia,Charlie Brown
+4,Levi's Jeans,Clothing,79.99,2,2023-01-20,104,North America,Diana Ross
+5,Samsung Galaxy S23,Electronics,849.99,1,2023-01-22,105,Europe,Alice Johnson
+6,Adidas Ultraboost,Footwear,179.99,1,2023-01-25,106,Asia,Bob Smith
+7,Sony WH-1000XM5,Electronics,349.99,2,2023-01-28,107,North America,Charlie Brown
+8,H&M T-Shirt,Clothing,19.99,5,2023-02-02,108,Europe,Diana Ross
+9,Dell XPS 13,Electronics,1299.99,1,2023-02-05,109,Asia,Alice Johnson
+10,Converse All Star,Footwear,59.99,4,2023-02-08,110,North America,Bob Smith
+11,Zara Dress,Clothing,89.99,2,2023-02-12,111,Europe,Charlie Brown
+12,iPad Pro,Electronics,1099.99,1,2023-02-15,112,Asia,Diana Ross
+13,Puma Sneakers,Footwear,99.99,2,2023-02-18,113,North America,Alice Johnson
+14,Gap Hoodie,Clothing,49.99,3,2023-02-22,114,Europe,Bob Smith
+15,AirPods Pro,Electronics,249.99,3,2023-02-25,115,Asia,Charlie Brown
+16,Timberland Boots,Footwear,199.99,1,2023-03-01,116,North America,Diana Ross
+17,Uniqlo Sweater,Clothing,39.99,4,2023-03-05,117,Europe,Alice Johnson
+18,Microsoft Surface Pro,Electronics,1199.99,1,2023-03-08,118,Asia,Bob Smith
+19,Vans Old Skool,Footwear,64.99,2,2023-03-12,119,North America,Charlie Brown
+20,Ralph Lauren Shirt,Clothing,129.99,1,2023-03-15,120,Europe,Diana Ross
+21,Google Pixel 7,Electronics,699.99,2,2023-03-18,121,Asia,Alice Johnson
+22,New Balance 574,Footwear,89.99,3,2023-03-22,122,North America,Bob Smith
+23,Mango Jacket,Clothing,159.99,1,2023-03-25,123,Europe,Charlie Brown
+24,HP Pavilion Laptop,Electronics,799.99,1,2023-03-28,124,Asia,Diana Ross
+25,Reebok Classic,Footwear,79.99,2,2023-04-02,125,North America,Alice Johnson
+26,Forever 21 Jeans,Clothing,34.99,3,2023-04-05,126,Europe,Bob Smith
+27,Nintendo Switch,Electronics,299.99,2,2023-04-08,127,Asia,Charlie Brown
+28,Dr. Martens Boots,Footwear,189.99,1,2023-04-12,128,North America,Diana Ross
+29,ASOS Dress,Clothing,69.99,2,2023-04-15,129,Europe,Alice Johnson
+30,Lenovo ThinkPad,Electronics,899.99,1,2023-04-18,130,Asia,Bob Smith
+31,Jordan Sneakers,Footwear,159.99,1,2023-04-22,131,North America,Charlie Brown
+32,Tommy Hilfiger Polo,Clothing,89.99,2,2023-04-25,132,Europe,Diana Ross
+33,Tesla Model Y Accessories,Electronics,499.99,1,2023-04-28,133,Asia,Alice Johnson
+34,Skechers Go Walk,Footwear,69.99,3,2023-05-02,134,North America,Bob Smith
+35,Banana Republic Suit,Clothing,299.99,1,2023-05-05,135,Europe,Charlie Brown
+36,Xbox Series X,Electronics,499.99,1,2023-05-08,136,Asia,Diana Ross
+37,FILA Sneakers,Footwear,54.99,2,2023-05-12,137,North America,Alice Johnson
+38,COS Minimalist Top,Clothing,79.99,3,2023-05-15,138,Europe,Bob Smith
+39,Canon EOS R6,Electronics,2499.99,1,2023-05-18,139,Asia,Charlie Brown
+40,Allbirds Tree Runners,Footwear,98.99,2,2023-05-22,140,North America,Diana Ross
+41,Everlane Basics,Clothing,45.99,4,2023-05-25,141,Europe,Alice Johnson
+42,PlayStation 5,Electronics,499.99,1,2023-05-28,142,Asia,Bob Smith
+43,Under Armour Shoes,Footwear,119.99,1,2023-06-02,143,North America,Charlie Brown
+44,Lululemon Leggings,Clothing,128.99,2,2023-06-05,144,Europe,Diana Ross
+45,Bose SoundLink,Electronics,179.99,2,2023-06-08,145,Asia,Alice Johnson
+46,Crocs Classic,Footwear,49.99,3,2023-06-12,146,North America,Bob Smith
+47,Patagonia Jacket,Clothing,199.99,1,2023-06-15,147,Europe,Charlie Brown
+48,Apple Watch Series 8,Electronics,399.99,1,2023-06-18,148,Asia,Diana Ross
+49,Birkenstock Sandals,Footwear,129.99,2,2023-06-22,149,North America,Alice Johnson
+50,North Face Backpack,Clothing,89.99,2,2023-06-25,150,Europe,Bob Smith
