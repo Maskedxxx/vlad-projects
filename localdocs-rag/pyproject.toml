@@ -1,0 +1,66 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "localdocs-rag"
+version = "0.1.0"
+description = "A RAG CLI for local documents with citation support"
+authors = [{name = "LocalDocs RAG", email = "localdocs@example.com"}]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.12"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+]
+
+dependencies = [
+    "langchain>=0.1.0",
+    "langchain-community>=0.0.10",
+    "langchain-openai>=0.0.5",
+    "faiss-cpu>=1.7.4",
+    "typer[all]>=0.9.0",
+    "pydantic>=2.5.0",
+    "pydantic-settings>=2.1.0",
+    "pypdf>=3.17.0",
+    "python-docx>=1.1.0",
+    "python-dotenv>=1.0.0",
+    "rich>=13.7.0",
+    "tiktoken>=0.5.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4.0",
+    "pytest-cov>=4.1.0",
+    "black>=23.12.0",
+    "ruff>=0.1.8",
+    "mypy>=1.8.0",
+]
+
+[project.scripts]
+localdocs = "localdocs_rag.cli:app"
+
+[tool.setuptools]
+packages = ["localdocs_rag"]
+
+[tool.black]
+line-length = 88
+target-version = ['py312']
+
+[tool.ruff]
+target-version = "py312"
+line-length = 88
+select = ["E", "W", "F", "I", "B", "C4", "ARG", "SIM"]
+ignore = ["E501", "W291", "W292", "W293"]
+
+[tool.mypy]
+python_version = "3.12"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
