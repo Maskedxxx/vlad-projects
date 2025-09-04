@@ -76,7 +76,6 @@ Thumbs.db
 *.sqlite
 *.sqlite3
 app.db
-test_*.py
 
 # Logs
 *.log
